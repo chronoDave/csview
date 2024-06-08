@@ -1,0 +1,27 @@
+{
+  "name": "csview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/build.js -w",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js && tape test/**/*.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/tape": "^5.6.4",
+    "@typescript-eslint/eslint-plugin": "^7.12.0",
+    "@typescript-eslint/parser": "^7.12.0",
+    "esbuild": "^0.21.4",
+    "esbuild-plugin-copy": "^2.1.1",
+    "esbuild-sass-plugin": "^3.3.1",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "fast-glob": "^3.3.2",
+    "sass": "^1.77.4",
+    "tape": "^5.7.5",
+    "typescript": "^5.4.5"
+  }
+}

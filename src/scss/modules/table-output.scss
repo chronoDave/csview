@@ -1,0 +1,15 @@
+#output table { 
+  th, td {
+    text-align: left;
+    white-space: nowrap;
+    border: 1px solid lightgray;
+    padding: 0.5em 1em;
+  }
+
+  th > div{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    justify-content: space-between;
+  }
+}

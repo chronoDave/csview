@@ -1,0 +1,9 @@
+input[type='file'] {
+  border: 1px dotted black;
+  padding: 2em;
+  border-radius: 0.25em;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
